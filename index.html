@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <title>Huerto feliz</title>
+</head>
+<body>
+
+    <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+            <li class="nav-item"> 
+                <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+        </ul>
+    </header>
+
+    <main class="container">
+
+        <!-- Inicio -->
+
+        <section id="inicio" class="text-center my-5">
+            <div class="titulo">
+                <h2>Tu Jardín, Nuestro Compromiso</h2>
+            </div>
+            <div class="contenido">
+                <p class="lead">Transformamos tus espacios verdes en lugares llenos de vida y armonía. Con un equipo experto y atención al detalle, nos encargamos de que tu hogar luzca impecable en cualquier estación del año.</p>
+            </div>
+        </section>
+
+        <!-- Servicios -->   
+        <section id="servicios" class="my-5">
+            <h2 class="text-center mb-4">Nuestros Servicios</h2>
+
+            <!-- Carrusel de servicios -->
+            <div id="carrusel_servicios" class="carousel slide" data-bs-ride="carousel">
+                <div class="carrusel-indicators">
+                    <button type="button" data-bs-target="#carrusel_servicios" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carrusel_servicios" data-bs-slide-to="1" aria-label="Servicio 2"></button>
+                    <button type="button" data-bs-target="#carrusel_servicios" data-bs-slide-to="2" aria-label="Servicio 3"></button>
+                </div>    
+            <!-- Carrusel servicios -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/pasto.jpg" class="d-block w-100" alt="Servicio 1">
+                    <p>hola mundo</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/poda-de-arboles.jpg" class="d-block w-100" alt="Servicio 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/5e42c6bd65ac9-image-asset.jpeg" class="d-block w-100" alt="Servicio 3">
+                </div>
+            </div>
+
+            </div>    
+        </section>
+
+
+    </main>
+
+        <!-- Contacto -->
+    <footer id="contacto" class="py-4 text-center bg-light">
+        <p>© 2026 Huerto Feliz - Expertos en Paisajismo</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
