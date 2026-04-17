@@ -1,10 +1,19 @@
+/*header*/
+
 header{
-    background-color: rgb(0, 0, 0);
+    background-color: #88A096;
     
 }
 
+.nav-link{
+    color: #2A4D35 !important;
+    font-weight: bold;
+}
 
-
+.nav-link:hover{
+    color: #2A4D35 !important;
+    text-decoration: underline;
+}
 /*Main*/
 
 
