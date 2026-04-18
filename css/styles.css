@@ -5,18 +5,31 @@ header{
     
 }
 
+.logo img{
+        height: 50px;
+        width: auto;
+}
+
+/*Navegación color letras*/
 .nav-link{
     color: #2A4D35 !important;
     font-weight: bold;
+    margin-right: 20px;
 }
 
 .nav-link:hover{
     color: #2A4D35 !important;
     text-decoration: underline;
 }
+
+
 /*Main*/
 
+/*Sección de inicio*/
 
+
+
+/*Sección de servicios*/
 
 /*Carrusel*/
 .carousel-item img {
@@ -29,3 +42,27 @@ header{
             border-radius: 10px;
             padding: 20px;
 }
+
+/*historia*/
+section div.historia-imagen {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/*Cartas */
+
+.card-img-top {
+    height: 250px;       
+    object-fit: cover;   
+    object-position: center;
+}
+
+/*Sección de contacto*/
+
+
+
+
+
+
+/*Footer*/

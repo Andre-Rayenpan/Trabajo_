@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <title>Huerto feliz</title>
 </head>
 <body>
 
-    <header class="d-flex justify-content-center py-3">
-        <ul class="nav nav-pills">
+    <header class="d-flex justify-content-between py-3">
+        <div class="logo">
+            <img src="imagenes/LogoV1.png" alt="logo de la empresa">
+        </div>
+        <ul class="navbar-nav flex-row flex-wrap">
             <li class="nav-item"> 
                 <a class="nav-link" href="#inicio">Inicio</a>
             </li>
@@ -36,12 +39,7 @@
             </div>
         </section>
 
-        <!-- Historia -->
-        <section class="Historia">
-            <h2 class="text-center my-5">Nuestra Historia</h2>
-
-        </section>
-
+        
 
 
 
@@ -51,28 +49,31 @@
         <section id="servicios" class="my-5">
             <h2 class="text-center mb-4">Nuestros Servicios</h2>
 
-            <!-- Carrusel de servicios -->
+        <!-- Carrusel de servicios -->
             <div id="serviciosCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/servicio1.jpg" class="d-block w-100" alt="Servicio 1">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="imagenes/servicio1.jpg" class="d-block w-100" alt="Servicio 1">
+                        <div class="carousel-caption">
                             <h5>Corte del Césped</h5>
                             <p>Mantenemos tu césped perfecto y verde todo el año.</p>
+                            <p>Precio: $xx.xxxx</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/servicio2.jpg" class="d-block w-100" alt="Servicio 2">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="imagenes/servicio2.jpg" class="d-block w-100" alt="Servicio 2">
+                        <div class="carousel-caption">
                             <h5>Poda de Árboles</h5>
                             <p>Mantenemos tus árboles saludables y bien formados.</p>
+                            <p>Precio: $xx.xxxx</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/servicio3.jpg" class="d-block w-100" alt="Servicio 3">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="imagenes/servicio3.jpg" class="d-block w-100" alt="Servicio 3">
+                        <div class="carousel-caption">
                             <h5>Jardinería</h5>
                             <p>Brindamos servicios de jardinería para mantener tu espacio verde en perfecto estado.</p>
+                            <p>Precio: $xx.xxxx</p>
                         </div>
                     </div>
                 </div>
@@ -87,11 +88,68 @@
             </div>    
         </section>
 
+        <!-- Historia -->
+        <section class="Historia">
+            <h2 class="text-center my-5">Nuestra Historia</h2>
+            <p class="lead">Hace una década, Huerto Feliz nació con una misión simple: tratar cada jardín como si fuera un ecosistema sagrado.
+                 Empezamos con una sola cortadora de césped y un profundo respeto por la naturaleza. 
+                 Con el paso de los años, nuestro equipo ha crecido, pero nuestra esencia artesanal se mantiene intacta. <br>
+                 Hoy celebramos 10 años en el mercado, transformando patios olvidados en escenarios llenos de vida y color. 
+                 No solo cortamos pasto; cultivamos el espacio donde tú y tu familia crean sus mejores recuerdos.  </p>
+            <div class="historia-imagen text-center">
+                <img src="imagenes/LogoV2.png" alt="Nuestra Historia">
+            </div>
+        </section>
+
+        <!-- Cartas -->
+        <section class="cartas my-5">
+            <h2 class="text-center mb-4">Testimonios de Nuestros Clientes</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 h-100 shadow-sm">
+                        <img src="imagenes/cliente1.jpg" class="card-img-top" alt="Cliente 1">
+                        <div class="card-body">
+                            <h5 class="card-title">María López</h5>
+                            <p class="card-text">"Huerto Feliz transformó mi jardín en un oasis. Su atención al detalle es impresionante."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 h-100 shadow-sm">
+                        <img src="imagenes/cliente2.jpg" class="card-img-top" alt="Cliente 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Juan Pérez</h5>
+                            <p class="card-text">"Increíble servicio y resultados excepcionales."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 h-100 shadow-sm">
+                        <img src="imagenes/cliente3.jpg" class="card-img-top" alt="Cliente 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Ana García</h5>
+                            <p class="card-text">"sus servicios son de otro mundo, atencion al cliente excelente y resultados excepcionales, los mejores de la ciudad"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="contacto">
+            <div>
+                <h2>Contacto</h2>
+                <p class="lead">¿Tienes alguna pregunta o necesitas más información? ¡No dudes en contactarnos!</p>
+            </div>
+
+        </section>
+
+
 
     </main>
 
-        <!-- Contacto -->
-    <footer id="contacto" class="py-4 text-center bg-light">
+    <!-- pie de página -->
+    <footer class="py-4 text-center bg-light">
         <p>© 2026 Huerto Feliz - Expertos en Paisajismo</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
