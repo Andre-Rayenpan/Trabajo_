@@ -6,7 +6,7 @@ header{
 }
 
 .logo img{
-        height: 50px;
+        height: 60px;
         width: auto;
 }
 
@@ -22,25 +22,18 @@ header{
     text-decoration: underline;
 }
 
-
 /*Main*/
-
-/*Sección de inicio*/
-
-
-
-/*Sección de servicios*/
 
 /*Carrusel*/
 .carousel-item img {
-            height: 500px;
-            object-fit: cover;
+    height: 500px;
+    object-fit: cover;
 }
 
 .carousel-caption {
-            background: rgba(0, 0, 0, 0.6); 
-            border-radius: 10px;
-            padding: 20px;
+    background: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px;
+    padding: 20px;
 }
 
 /*historia*/
@@ -58,11 +51,10 @@ section div.historia-imagen {
     object-position: center;
 }
 
-/*Sección de contacto*/
-
-
-
-
-
-
 /*Footer*/
+footer {
+    background-color: #88A096 !important;
+    color: #2A4D35 !important;
+    text-align: justify;
+    padding: 20px 0;
+}
